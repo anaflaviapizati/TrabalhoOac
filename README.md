@@ -63,3 +63,4 @@ cat saida.hex                    # Mostra o resultado final em binário
 ## 📄 Documentação
 
 Link do PDF da documentação desenvolvido no LaTeX.
+https://drive.google.com/file/d/1XCHmHnxQjaWee7tqSxUpzsYQIsNFYSgB/view?usp=sharing
