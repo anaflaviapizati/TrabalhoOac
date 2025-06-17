@@ -7,7 +7,7 @@ Este projeto implementa um **montador (assembler) básico da arquitetura RISC-V*
 ## 📄 Documentação
 
 Link do PDF da documentação desenvolvido no LaTeX.
-https://drive.google.com/file/d/1XCHmHnxQjaWee7tqSxUpzsYQIsNFYSgB/view?usp=sharing
+https://drive.google.com/file/d/1WrcKH7l2PN5p1Q9A3GgCuM1T1srLfdbI/view?usp=sharing
 
 ## ✅ Instruções Suportadas
 
