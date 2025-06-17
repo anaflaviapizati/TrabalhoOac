@@ -10,4 +10,4 @@ $(TARGET): assembler.c
 clean:
 	rm -f $(TARGET)
 
-.PHONY: all clean 
+.PHONY: all clean

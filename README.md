@@ -9,14 +9,33 @@ Este projeto implementa um **montador (assembler) básico da arquitetura RISC-V*
 O montador reconhece e converte as seguintes instruções do conjunto RISC-V:
 
 | Instrução | Descrição                         |
-|----------|----------------------------------|
-| `lw`     | Carrega uma palavra da memória    |
-| `sw`     | Armazena uma palavra na memória   |
-| `sub`    | Subtração entre registradores     |
-| `xor`    | OU exclusivo entre registradores  |
-| `addi`   | Adição com valor imediato         |
-| `srl`    | Deslocamento lógico à direita     |
-| `beq`    | Desvio condicional se igual       |
+|-----------|----------------------------------|
+| `lw`      | Carrega uma palavra da memória    |
+| `sw`      | Armazena uma palavra na memória   |
+| `sub`     | Subtração entre registradores     |
+| `xor`     | OU exclusivo entre registradores  |
+| `addi`    | Adição com valor imediato         |
+| `srl`     | Deslocamento lógico à direita     |
+| `beq`     | Desvio condicional se igual       |
+| `add`     | Adição entre registradores        |
+| `and`     | Operação AND bit a bit             |
+| `ori`     | Operação OR com valor imediato    |
+
+---
+
+## 📚 Pseudocódigos e Lógica
+
+A implementação inclui pseudocódigos detalhados para as etapas principais do montador: análise léxica, resolução de rótulos e geração do código binário. Esses pseudocódigos facilitam o entendimento do processo de tradução das instruções em linguagem assembly para suas representações binárias.
+
+---
+
+## 🔢 Bases Numéricas Suportadas
+
+O montador suporta a interpretação de operandos em diferentes bases numéricas, permitindo maior flexibilidade na escrita do código assembly:
+
+- Decimal (ex: `42`)
+- Hexadecimal (prefixo `0x`, ex: `0x2A`)
+- Binário (prefixo `0b`, ex: `0b101010`)
 
 ---
 
@@ -36,3 +55,11 @@ No terminal, execute os seguintes comandos:
 gcc -o assembler assembler.c      # Compila o código em C
 ./assembler test.asm saida.hex   # Executa o montador com entrada e saída
 cat saida.hex                    # Mostra o resultado final em binário
+
+---
+
+---
+
+## 📄 Documentação
+
+Link do PDF da documentação desenvolvido no LaTeX.
