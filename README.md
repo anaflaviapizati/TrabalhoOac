@@ -57,9 +57,9 @@ O montador suporta a interpretação de operandos em diferentes bases numéricas
 No terminal, execute os seguintes comandos:
 
 ```bash
-gcc -o assembler assembler.c      # Compila o código em C
+make      # Compila o código em C e cria o montador
 ./assembler test.asm saida.hex   # Executa o montador com entrada e saída
-cat saida.hex                    # Mostra o resultado final em binário
+
 
 
 ---
